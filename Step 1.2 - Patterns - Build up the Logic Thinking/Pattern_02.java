@@ -10,6 +10,7 @@ Output:
 * * * * *
 
  */
+
 class Solution {
 
     void printTriangle(int n) {
