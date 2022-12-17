@@ -1,3 +1,16 @@
+/* 
+
+Input: 5
+
+Output:
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+* * * * * 
+
+*/
+
 class Solution {
 
     void printSquare(int n) {
