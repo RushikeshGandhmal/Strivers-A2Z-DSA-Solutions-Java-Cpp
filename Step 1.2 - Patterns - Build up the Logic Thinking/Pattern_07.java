@@ -24,6 +24,7 @@ class Solution {
             for (int j = 0; j < no_of_spaces; j++)
                 System.out.print(" ");
 
+            // For Stars
             for (int j = 0; j < total_no_of_starts; j++)
                 System.out.print("*");
 
