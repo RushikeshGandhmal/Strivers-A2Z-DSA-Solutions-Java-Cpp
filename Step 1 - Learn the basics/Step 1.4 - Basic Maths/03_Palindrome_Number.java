@@ -15,8 +15,6 @@ class Solution {
 
             a /= 10;
         }
-
         return rev == n ? "Yes" : "No";
     }
-
 }
