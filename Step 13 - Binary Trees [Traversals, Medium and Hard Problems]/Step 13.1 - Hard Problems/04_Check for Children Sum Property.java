@@ -10,6 +10,14 @@ The node values can be increased by 1 any number of times but decrement of any n
 A value for a NULL node can be assumed as 0.
 You are not allowed to change the structure of the given binary tree.
 
+Self Notes 📜:
+🥥 if both children sum is less than parent, make children's value to parent's value.
+🥥 if both children values sum is greater than or equal to parent, make parent's value to children's sum.
+🥥 recursively go left and right. Traversal type: DFS.
+🥥 when coming back up the tree, take children sum and replace it in parent.
+🥥 at any point we reach null, just return (base case)
+🥥 Intuition: while going down, increase the children values so we make sure to never fall short, then all we have to do is sum both children and replace it in parent.
+
  */
 
 class Node {
