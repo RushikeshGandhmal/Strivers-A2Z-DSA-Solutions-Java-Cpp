@@ -13,6 +13,15 @@ Output: 10 14 22
 Explanation: The three nodes at distance 2
 from node 8 are 10, 14, 22.
 
+
+NOTE : When you have to traverse back use a map to store the parent node.
+
+Self Notes:
+🍋 Mark each node to its parent to traverse upwards
+🍋 We will do a BFS traversal starting from the target node
+🍋 As long as we have not seen our node previously, Traverse up, left, right until reached Kth distance
+🍋 when reached Kth distance, break out of BFS loop and remaining node's values in our queue is our result
+
  */
 
 import java.util.*;
